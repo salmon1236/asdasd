@@ -1,0 +1,9 @@
+{
+  "data": [
+    { "name": "animal", "link": "/animal" },
+    { "name": "history", "link": "/history" },
+    { "name": "environment", "link": "/environment" },
+    { "name": "science", "link": "/science" },
+    { "name": "travel", "link": "/travel" }
+  ]
+}

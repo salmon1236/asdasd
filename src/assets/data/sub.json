@@ -1,0 +1,47 @@
+{
+  "data": {
+    "animal" : [
+      {"img": "animal_news_1.jpg", "text": "animal_news_1"},
+      {"img": "animal_news_2.jpg", "text": "animal_news_2"},
+      {"img": "animal_news_3.jpg", "text": "animal_news_3"},
+      {"img": "animal_news_4.jpg", "text": "animal_news_4"},
+      {"img": "animal_news_5.jpg", "text": "animal_news_5"},
+      {"img": "animal_news_6.jpg", "text": "animal_news_6"},
+      {"img": "animal_news_7.jpg", "text": "animal_news_7"},
+      {"img": "animal_news_8.jpg", "text": "animal_news_8"},
+      {"img": "animal_news_9.jpg", "text": "animal_news_9"},
+      {"img": "animal_news_10.jpg", "text": "animal_news_10"},
+      {"img": "animal_news_11.jpg", "text": "animal_news_11"},
+      {"img": "animal_news_12.jpg", "text": "animal_news_12"}
+    ],
+
+    "history" : [
+      {"img": "history_news_1.jpg", "text": "history_news_1"},
+      {"img": "history_news_2.jpg", "text": "history_news_2"},
+      {"img": "history_news_3.jpg", "text": "history_news_3"},
+      {"img": "history_news_4.jpg", "text": "history_news_4"},
+      {"img": "history_news_5.jpg", "text": "history_news_5"},
+      {"img": "history_news_6.jpg", "text": "history_news_6"},
+      {"img": "history_news_7.jpg", "text": "history_news_7"},
+      {"img": "history_news_8.jpg", "text": "history_news_8"},
+      {"img": "history_news_9.jpg", "text": "history_news_9"},
+      {"img": "history_news_10.jpg", "text": "history_news_10"},
+      {"img": "history_news_11.jpg", "text": "history_news_11"},
+      {"img": "history_news_12.jpg", "text": "history_news_12"}
+    ],
+    "environment" : [
+      {"img": "environ_news_1.jpg", "text": "environ_news_1"},
+      {"img": "environ_news_2.jpg", "text": "environ_news_2"},
+      {"img": "environ_news_4.jpg", "text": "environ_news_4"},
+      {"img": "environ_news_3.jpg", "text": "environ_news_3"},
+      {"img": "environ_news_5.jpg", "text": "environ_news_5"},
+      {"img": "environ_news_6.jpg", "text": "environ_news_6"},
+      {"img": "environ_news_7.jpg", "text": "environ_news_7"},
+      {"img": "environ_news_8.jpg", "text": "environ_news_8"},
+      {"img": "environ_news_9.jpg", "text": "environ_news_9"},
+      {"img": "environ_news_10.jpg", "text": "environ_news_10"},
+      {"img": "environ_news_11.jpg", "text": "environ_news_11"},
+      {"img": "environ_news_12.jpg", "text": "environ_news_12"}
+    ]
+  }
+}

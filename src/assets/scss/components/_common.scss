@@ -1,0 +1,29 @@
+header {
+  background-color: $black;
+  padding: 0 40px;
+  .logo {
+    a {
+      .img-root {
+        width: 110px;
+        display: block;
+      }
+    }
+  }
+  .menu {
+    ul {
+      li {
+        a {
+          display: block;
+          color: $gray-a;
+          font-size: $fs-14;
+          text-transform: uppercase;
+        } 
+        &:hover {
+          a {
+            color: #fa0;
+          }
+        }
+      }
+    }
+  }
+}
