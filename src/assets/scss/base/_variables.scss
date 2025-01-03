@@ -1,8 +1,10 @@
+// _variables.scss
 // 색상 정의(유채색)
 $blue: #08f;
 $blue-h: #06d;
 $red: #e35;
 $red-h: #c13;
+$primary: #fd0;
 
 // 색상 정의(무채색)
 $black: #000;
@@ -34,3 +36,18 @@ $fs-24: 24px;
 $fs-28: 28px;
 $fs-30: 30px;
 $fs-32: 32px;
+
+// 반응형 구간 정의
+// PC -> Mobile @media (max-width: )
+$xl: 1399px;
+$lg: 1199px;
+$md: 991px;
+$sm: 767px;
+$xs: 575px;
+
+// Mobile -> PC  @media (min-width: )
+// $xl: 1400px;
+// $lg: 1200px;
+// $md: 992px;
+// $sm: 768px;
+// $xs: 576px;

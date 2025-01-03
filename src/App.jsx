@@ -1,31 +1,58 @@
+// App.jsx
+import { useState } from "react";
 import "./assets/scss/app.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import HeaderCp from "./components/common/HeaderCp";
 import FooterCp from "./components/common/FooterCp";
 
-import MainPg from "./components/page/MainPg";
-import AnimalPg from "./components/page/AnimalPg"
-import EnvironmentPg from "./components/page/EnvironmentPg";
-import SciencePg from "./components/page/SciencePg";
-import TravelPg from "./components/page/TravelPg";
-import HistoryPg from "./components/page/HistoryPg";
-import NotFoundPg from "./components/page/NotFound";
+import MainPg from "./pages/MainPg";
+import AnimalPg from "./pages/AnimalPg";
+import HistoryPg from "./pages/HistoryPg";
+import EnvironmentPg from "./pages/EnvironmentPg";
+import SciencePg from "./pages/SciencePg";
+import TravelPg from "./pages/TravelPg";
+import NotFoundPg from "./pages/NotFoundPg";
 
 function App() {
+  const [openResMenu, setOpenResMenu] = useState(false);
+
   return (
     <div className="App">
       <BrowserRouter>
-        <HeaderCp />
+        <HeaderCp openResMenu={openResMenu} setOpenResMenu={setOpenResMenu} />
+        {/* <header></header> */}
+
         <main>
           <Routes>
-            <Route path="/" element={<MainPg />}></Route>
-            <Route path="/animal" element={<AnimalPg />}></Route>
-            <Route path="/history" element={<HistoryPg />}></Route>
-            <Route path="/environment" element={<EnvironmentPg />}></Route>
-            <Route path="/science" element={<SciencePg />}></Route>
-            <Route path="/travel" element={<TravelPg />}></Route>
-            <Route path="*" element={<NotFoundPg />}></Route>
+            <Route
+              path="/"
+              element={<MainPg setOpenResMenu={setOpenResMenu} />}
+            />
+            <Route
+              path="/animal"
+              element={<AnimalPg setOpenResMenu={setOpenResMenu} />}
+            />
+            <Route
+              path="/history"
+              element={<HistoryPg setOpenResMenu={setOpenResMenu} />}
+            />
+            <Route
+              path="/environment"
+              element={<EnvironmentPg setOpenResMenu={setOpenResMenu} />}
+            />
+            <Route
+              path="/science"
+              element={<SciencePg setOpenResMenu={setOpenResMenu} />}
+            />
+            <Route
+              path="/travel"
+              element={<TravelPg setOpenResMenu={setOpenResMenu} />}
+            />
+            <Route
+              path="*"
+              element={<NotFoundPg setOpenResMenu={setOpenResMenu} />}
+            />
           </Routes>
         </main>
         <FooterCp />
